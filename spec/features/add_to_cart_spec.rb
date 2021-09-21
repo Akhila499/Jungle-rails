@@ -22,7 +22,7 @@ RSpec.feature "AddToCarts", type: :feature, js: true do
     # ACT
     visit root_path
     first('article.product').click_on('Add')
-    
+    sleep 2
     expect(page).to have_text 'My Cart (1)'
     # DEBUG / VERIFY
     save_screenshot
