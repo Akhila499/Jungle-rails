@@ -1,6 +1,17 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of learning Ruby.
+
+* Implemented few features on the application to understand the MVC architectural pattern of Ruby
+* Tested the project using Rspec tool, capybara, phantomjs (npm) and database_cleaner
+
+## A Quick Glance
+![Home Page](https://github.com/Akhila499/Jungle-rails/blob/master/public/home_page.png)
+![Product Details](https://github.com/Akhila499/Jungle-rails/blob/master/public/product_view_page.png)
+![Cart Page](https://github.com/Akhila499/Jungle-rails/blob/master/public/my_cart.png)
+![Order History Page](https://github.com/Akhila499/Jungle-rails/blob/master/public/order_history_page_view.png)
+![Admin Product Add New](https://github.com/Akhila499/Jungle-rails/blob/master/public/admin_product_add_page.png)
+![Admin Category Add New](https://github.com/Akhila499/Jungle-rails/blob/master/public/admin_add_category_view.png)
 
 ## Additional Steps for Apple M1 Machines
 
