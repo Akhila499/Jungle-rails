@@ -21,7 +21,9 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
     # ACT
     visit root_path
 
-    first('article.product').click_link('Details')
+    # find('article.product').click_link('Details')
+    find("article.product", match: :first).click_link('Details')
+    # find('article.product').first(:link, "Details").click
     # DEBUG / VERIFY
     # save_screenshot
     
